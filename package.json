@@ -1,0 +1,24 @@
+{
+  "name": "veehj.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gh-pages.js",
+  "scripts": {
+    "gh-pages": "jekyll build && touch _site/.nojekyll && node gh-pages.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veehj/veehj.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veehj/veehj.github.io/issues"
+  },
+  "homepage": "https://github.com/veehj/veehj.github.io#readme",
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
